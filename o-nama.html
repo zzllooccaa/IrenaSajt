@@ -2,11 +2,99 @@
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
-    <title>O Nama</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Nama - Esthetic Studio Irena</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 3em;
+            margin: 0;
+            color: #d63384;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .about-container {
+            background-color: #fff;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 1.2em;
+            color: #555;
+            text-align: left;
+        }
+        .about-container h2 {
+            color: #d63384;
+            border-bottom: 2px solid #d63384;
+            padding-bottom: 5px;
+        }
+        .about-container p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #d63384;
+            border: 2px solid #d63384;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .back-link:hover {
+            background-color: #d63384;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <h1>O Nama</h1>
-    <p>Ovo je stranica o nama.</p>
-    <a href="index.html">Vrati se na početnu</a>
+
+    <header>
+        <h1>Esthetic Studio Irena</h1>
+        <nav>
+            <a href="index.html">Početna</a> | 
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <div class="about-container">
+        <h2>O nama</h2>
+        <p>Dobrodošli u <strong>Esthetic Studio Irena</strong>, mesto gde se lepota i preciznost susreću sa profesionalizmom. Naš tim stručnjaka posvećen je tome da vam pruži vrhunsku uslugu i iskustvo u svetu estetike.</p>
+
+        <h2>Naše usluge</h2>
+        <p><strong>Japansko iscrtavanje obrva</strong> – Tehnika preciznog iscrtavanja dlačica koja omogućava potpuno prirodan izgled obrva.</p>
+        <p><strong>Puder obrve</strong> – Polutrajna tehnika senčenja obrva koja daje mekan i puderast efekat.</p>
+        <p><strong>Trepavice</strong> – Nadogradnja i oblikovanje trepavica za besprekorno istaknut pogled.</p>
+        <p><strong>Nokti</strong> – Profesionalna manikir i pedikir usluga uz širok spektar tehnika i stilova.</p>
+
+        <p>Bilo da želite suptilno poboljšanje izgleda ili kompletnu transformaciju, naš tim je ovde da vam pomogne da ostvarite svoj idealan izgled.</p>
+
+        <a href="index.html" class="back-link">Vrati se na početnu</a>
+    </div>
+
 </body>
 </html>
